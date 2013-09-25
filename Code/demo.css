@@ -75,28 +75,31 @@ p{
 }
  
 @-webkit-keyframes wholeHead {
-    0% { top: -15px; left: 0;}
-    24.99% { top: -15px; left: 0;}
-    25% { top: -10px; left: 5px; }
-    49.99% { top: -10px; left:5px; }
-    50% { top: -5px; left: 0; }
-    74.99% { top: -5px; left: 0; }
-    75% { top: -10px; left: -5px; }
-    99.99% { top: -10px; left: -5px;}
-    100% { top: -15px; left: 0;}
+    0% { top: -12px; left: 0;}
+    24.99% { top: -12px; left: 0;}
+    25% { top: -7px; left: 5px; }
+    49.99% { top: -7px; left:5px; }
+    50% { top: -2px; left: 0; }
+    74.99% { top: -2px; left: 0; }
+    75% { top: -7px; left: -5px; }
+    99.99% { top: -7px; left: -5px;}
+    100% { top: -12px; left: 0;}
 }
 
 #wholeHead{
     position:absolute;
-    top: -15px;
-    /*-moz-animation: wholeHead 0.4s linear 0s infinite;
-    -webkit-animation: wholeHead 0.4s linear 0s infinite;*/
+    top: -12px;
+    
+}
+
+.veryHappy{
+	-moz-animation: wholeHead 0.4s linear 0s infinite;
+    -webkit-animation: wholeHead 0.4s linear 0s infinite;
 }
 #mainHead {
 	width: 80px;
 	height: 35px;
-	/*border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;*/
+	background-color: white;
 	position:absolute;
 	z-index: 20;
 	top: 50px;
@@ -127,14 +130,14 @@ p{
     background-color: #fff;
     position: absolute;
     top:4px;
-    left: 17px;
+    left: 16px;
     z-index: 22;
     border-right: 5px solid #000;
     border-bottom: 5px solid #000;
 }
 
 .rightEye {
-    left: 56px;
+    left: 55px;
 }
 
 .nose {
@@ -143,7 +146,7 @@ p{
     background-color:#000;
     position:absolute;
     top:9px;
-    left: 39px;
+    left: 38px;
 }
 
 .cheek {
@@ -152,11 +155,11 @@ p{
     background-color: #f7a4a3;
     position: absolute;
     top: 15px;
-    left: 5px;
+    left: 4px;
 }
 
 .rightCheek {
-    left: 67px;
+    left: 66px;
 }
 
 .mouth {
@@ -167,7 +170,7 @@ p{
     font-size: 25px;
     font-weight: bold;
     top:9px;
-    left:34px;
+    left:33px;
     color: #000;
 }
 
@@ -240,7 +243,7 @@ p{
 #wholeTail {
     position:absolute;
 	top: 37;
-	left: 73;
+	left: 78;
 }
 
 .tail {
